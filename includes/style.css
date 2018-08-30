@@ -1,0 +1,33 @@
+.mainmenubuttondiv {
+    display: inline-block;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    min-height: 10vh;
+}
+
+.mainmenubutton {
+    min-height: 8vh;
+    min-width: 10vw;
+    background: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #666666;
+}
+
+body {
+    background : rgb(66, 134, 244);
+}
